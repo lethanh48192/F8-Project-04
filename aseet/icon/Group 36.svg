@@ -1,9 +1,9 @@
-<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 21" width="21" height="21">
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29 29" width="29" height="29">
 	<title>Group 36</title>
 	<defs>
 		<image  width="26" height="29" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAdCAYAAAC0T3x2AAAAAXNSR0IB2cksfwAABPBJREFUeJzVVXtMVXUcPyQ+IlMiZ7AoL5PCbgnkLYhN6Mp4NmLxOBpxgcvrosRFBORVcg8RD5ULmlkBbTcWwmbDrK21XMZybbm2HlvNZjqICWYGiEAgIOfT7/c753DP1YJrW390ts++j/P7/T7n+/h9D8f9Bw/MMUbsjgF2R/c6v8nWoEFnUy+6miUoOpWdKl+3rHcR3VbXj7cqgdZ919gam+C+NFFzYQYOFQOH9lCIaNkj68V23Oo7TPBGqQT2vqhoaaLyhF6UJwIVSSBSlIEFSH5ZV/krk1TvE5ZOIbKfsaE0/ntUpwIWA5hkeqqiiypd8ltUOt2bE9LiXJ2OWQV0t4DUQEJ3s+ioq945wAq61ykSRmSrE/BePdD3IzD4C3D2UzD7o3bJpjjZBrIOOHPS7rORNR0NFueJ2qstaKsGZv+UcO4s6Shif/yu3UdJqY++U3zUbq2+g4iOlAkEwOWLwMgg8PUnwJvlJG1Wu4/qdM2XPSKz+3+S7KNlfx8ROM4FgAs4AoG7i8FaKBAAVrPIZJOsNxdKtgNkv/2digiQCTjpcJ5f5oDXc2tQnwvU5QANuSIaTGB2g0lEPdVNkp9JFSTbcnskgiCRmHTLGXjtChj1q0ib1sKSJhX6m1Okmw6C2fSSfvs5wWmgMQ+oSQdOvC3ZvccBIZ36LKpUySR6vSsjiPVdSaQbIVqNfP1qVCbWoSIZmBgGJkelGlUki2h9FZiZIJgE2veJqNpOPuQzezNU8dQnyFmDPV2UhEaQ5n8PGk1laCoYw8GCAZKyARzIB94hB3/xAXCqCyiJI7V6GbgxLhEdJc1R8rzIWp+S/N5PbXph7V3HohFINGYSCY2gnN8s1mZhvjYT8zVGggzMdzQySf1iYRRgjgQKIiRplm0JomyL8hrLLbXRrhiK07ld57Uekzsjouf252PucClm9ibixt4EiEN9mKk2YLY8CfP54RBzt4rICwV2hoHJPFmaqB4qyiB2mDp1etcLpC6jJt3a4SOVm6a/O1M/13sCc6d7MN2xH3M/fIVJaxFmiT3bacXNNgvmd+mBjKdEZD5NARgXpARFzwoS7BHx3DJam8H0oPt/jdrgc8VaHD9S+WLb1LFmTH/YjrG8cPFaejCm2l/DWFlSz0TVS5ap7dqS2R3+u24aAnNgCMiEcYsRaYG3wxgY6EDUr9esGti6+b7Lz/ls+HnbOt25Zz0i/8gO7R7PCcV1wxZMpD4pjqYEvH8hwlN/ftuDAUNRGx/qf0HjDnPsSvah5JzFxwtt7eOk42LJhtTgNVd5jeelSO9HBqK8dH3hXmHDCX6vTKf4nx9Nfiz/UpxP0GCcT8DFaG/fK1Eb14/E+q5hd412LJkkixOxiMhCQWDNMMrr1k7yWs/fYjSa8Rg/v5Ek7eMjvK92fMemR6/yWt8pXvvwRIL/epISd3bX6JUgzbQoyQIRnWs0fPp1dDOJbDxFtw4GnRdDTrC3JJ94ANkhHjAHr2HrYuW00Xu4VOrYnGP3SHWX4rzcEO93L2gNSLuDNAmyiaRRZBE/fU+nh55zZfuwRNocolLmHN3M8h5yNzuQjiE2igjYWCJ+SqKjs5Csp9fDaSL2W1DISCqUmUcJ6aF0LNFIpdQuZ5GzlAlOpOyfIuPkXwXHSaQKsXK4qibKv+uOiRyiU0OuAyNQUkVq+799XFT4189fRwHGIhTGQuwAAAAASUVORK5CYII="/>
 	</defs>
 	<style>
 	</style>
-	<use id="Background" href="#img1" x="-5" y="0"/>
+	<use id="Background" href="#img1" x="2" y="0"/>
 </svg>
