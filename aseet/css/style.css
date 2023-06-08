@@ -511,3 +511,115 @@ a {
     opacity: 1;
     bottom: -5px;
 }
+/* ---------------Services-------------------- */
+.services {
+    margin-top: 190px;
+    background: #fff6ed;
+    padding: 68px 0 100px;
+}
+.services__content-top {
+    text-align: center;
+}
+.services__desc {
+    font-family: Sora, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 1;
+    color: #5e6085;
+    margin-bottom: 15px;
+}
+
+.services__columns {
+    margin-top: 71px;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    column-gap: 71px;
+}
+.services__item {
+    width: 294px;
+    background: #ffffff;
+    border: 2px solid rgba(255, 188, 122, 0.26);
+    border-radius: 10px;
+    padding: 30px;
+}
+.services__item + .services__item {
+    margin-top: 24px;
+}
+.services__item-heading {
+    position: relative;
+    font-weight: 600;
+    font-size: 2.2rem;
+    line-height: 1;
+    color: #000958;
+    padding-left: 12px;
+}
+.services__item-heading::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    display: block;
+    width: 2px;
+    border-radius: 1px;
+    background: linear-gradient(#ff5b2e, #ffa187);
+}
+.services__item-desc {
+    margin-top: 18px;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.71;
+    color: #656689;
+    width: 244px;
+}
+.services__item-more {
+    display: inline-flex;
+    margin-top: 24px;
+    font-family: Sora, sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1;
+    color: #34396a;
+    align-items: center;
+}
+.services__item-more::after {
+    content: url(../icon/ArrowUpRight.svg);
+    margin: 2px 0 0 9px;
+}
+.services__item-img {
+    position: relative;
+    width: 440px;
+}
+.column-media {
+    padding-top: 20px;
+}
+.services-img__thumb {
+    position: relative;
+    z-index: 1;
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+.services__item-img::after {
+    position: absolute;
+    content: "";
+    display: inline-block;
+    left: 16px;
+    right: 16px;
+    bottom: 0;
+    height: 350px;
+    background: linear-gradient(180deg, #9df1fb 0%, #73d0db 108.14%);
+    border-radius: 10px;
+}
+.services__cta {
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+}
+.services-btn {
+    min-width: 214px;
+    color: #ff5b2e;
+    background: transparent;
+    border-color: #ff5b2e;
+}
