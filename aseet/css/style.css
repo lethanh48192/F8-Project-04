@@ -516,6 +516,7 @@ a {
     margin-top: 190px;
     background: #fff6ed;
     padding: 68px 0 100px;
+    scroll-margin-top: 20px;
 }
 .services__content-top {
     text-align: center;
@@ -622,4 +623,114 @@ a {
     color: #ff5b2e;
     background: transparent;
     border-color: #ff5b2e;
+}
+
+/* ---------------Staff-------------------- */
+.staff {
+    padding: 130px 0;
+}
+.staff__top {
+    text-align: center;
+}
+.staff__desc {
+    font-family: Sora, sans-serif;
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 1;
+    color: #5e6085;
+    margin-bottom: 15px;
+}
+.staff__list {
+    margin-top: 45px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 35px;
+}
+.staff__item {
+    text-align: center;
+}
+.staff__item-images {
+    position: relative;
+    border-radius: 130px;
+    margin: 0 16px;
+}
+.staff__item-images::before {
+    content: "";
+    display: inline-block;
+    width: 100%;
+    height: 94%;
+    background: linear-gradient(180deg, #90ccff 0%, #59a8eb 95.96%);
+    border-radius: inherit;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.staff__item:nth-child(2) .staff__item-images::before {
+    background: linear-gradient(180deg, #ff997e 0%, #f3752e 100%);
+}
+.staff__item:nth-child(3) .staff__item-images::before {
+    background: linear-gradient(180deg, #fabf3e 0%, #ffa14a 100%);
+}
+.staff__item:nth-child(4) .staff__item-images::before {
+    background: linear-gradient(180deg, #5bd6e2 0%, #00a7cc 100%);
+}
+.staff__item-images::after {
+    content: "";
+    position: absolute;
+    width: calc(100% + 36px);
+    bottom: 0;
+    height: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-position: bottom;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.staff__item:nth-child(1) .staff__item-images::after {
+    background-image: url(../icon/staff-decor-1.svg);
+}
+.staff__item:nth-child(2) .staff__item-images::after {
+    background-image: url(../icon/staff-decor-2.svg);
+}
+.staff__item:nth-child(3) .staff__item-images::after {
+    background-image: url(../icon/staff-decor-3.svg);
+}
+.staff__item:nth-child(4) .staff__item-images::after {
+    background-image: url(../icon/staff-decor-4.svg);
+}
+.staff__item:nth-child(even) .staff__item-images::after {
+    background-position: 0 3px;
+}
+.staff__img {
+    position: relative;
+    width: 100%;
+    display: block;
+    z-index: 1;
+    border-radius: inherit;
+}
+.staff__item-title {
+    margin-top: 34px;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1;
+    color: #656689;
+}
+.staff__item-name {
+    margin-top: 14px;
+    font-weight: 600;
+    font-size: 2.2rem;
+    line-height: 1;
+    color: #000958;
+}
+.staff__cta-wrap {
+    margin-top: 48px;
+    display: flex;
+    justify-content: center;
+}
+.staff__cta {
+    min-width: 193px;
+    color: #ff5b2e;
+    background: transparent;
+    border-color: currentColor;
+    opacity: 0.6;
 }
